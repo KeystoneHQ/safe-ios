@@ -59,14 +59,12 @@
 	<string>$(DESKTOP_PAIRING_URL)</string>
 	<key>DISCORD_URL</key>
 	<string>$(DISCORD_URL)</string>
-	<key>FORUM_URL</key>
-	<string>$(FORUM_URL)</string>
-	<key>SAFE_DAO_URL</key>
-	<string>$(SAFE_DAO_URL)</string>
 	<key>FALLBACKHANDLER_URL</key>
 	<string>$(FALLBACKHANDLER_URL)</string>
 	<key>FEATURE_SUGGESTION_URL</key>
 	<string>$(FEATURE_SUGGESTION_URL)</string>
+	<key>FORUM_URL</key>
+	<string>$(FORUM_URL)</string>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
 	<key>FirebaseCrashlyticsCollectionEnabled</key>
@@ -165,6 +163,8 @@
 	<string>$(PAY_FOR_CANCELLATION_URL)</string>
 	<key>PRIVACY_URL</key>
 	<string>$(PRIVACY_URL)</string>
+	<key>SAFE_DAO_URL</key>
+	<string>$(SAFE_DAO_URL)</string>
 	<key>SERVICE_ENV</key>
 	<string>$(SERVICE_ENV)</string>
 	<key>TERMS_URL</key>

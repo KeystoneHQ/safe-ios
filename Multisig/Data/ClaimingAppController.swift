@@ -65,8 +65,8 @@ class ClaimingAppController {
 
     static func isAvailable(chain: Chain) -> Bool {
         let isChainSupported = chain.id == Chain.ChainID.ethereumRinkeby || chain.id == Chain.ChainID.ethereumMainnet
-        let isEnabledInConfig = NSString(string: FirebaseRemoteConfig.shared.value(key: .safeClaimEnabled) ?? "false").boolValue
-        return isChainSupported && isEnabledInConfig
+//        let isEnabledInConfig = NSString(string: FirebaseRemoteConfig.shared.value(key: .safeClaimEnabled) ?? "false").boolValue
+        return isChainSupported
     }
 
     // MARK: - Static data

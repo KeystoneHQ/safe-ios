@@ -17,7 +17,7 @@ class BalancesViewController: LoadableViewController, UITableViewDelegate, UITab
         case balances(items: [TokenBalance])
     }
     var clientGatewayService: BalancesAPI = App.shared.clientGatewayService
-    var remoteConfig: FirebaseRemoteConfig = FirebaseRemoteConfig.shared
+//    var remoteConfig: FirebaseRemoteConfig = FirebaseRemoteConfig.shared
     var createPasscodeFlow: CreatePasscodeFlow!
 
     override var isEmpty: Bool { sections.isEmpty }
